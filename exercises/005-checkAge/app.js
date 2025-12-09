@@ -1,6 +1,3 @@
-let person = prompt("name please");
-let age = parseInt(prompt("age please"), 10);
-
 function checkAge(name, age) {
   // your code here
   if(age < 21){
@@ -11,5 +8,5 @@ function checkAge(name, age) {
   }
 }
 
-
-console.log(checkAge(person, age));
+let num = parseInt(prompt("What is your age?"), 10);
+console.log(checkAge("Adrian", num));
